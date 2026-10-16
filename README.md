@@ -1,40 +1,52 @@
 # Proyecto 02: Explorando la cultura en la web
 
-Este repositorio contiene el código fuente y los recursos del sitio web desarrollado para presentar los resultados de la recopilación de datos y entrevistas realizadas a los asistentes del evento cultural "Chancho Fest 2026" en Guayaquil, al cual se acudió el 4 de octubre, mismo día en que se ejecutaron las encuestas.
+Este repositorio contiene el código fuente y los recursos del sitio web informativo desarrollado para presentar los resultados de la recopilación de datos de los asistentes del evento cultural **"Chancho Fest 2026"** (Parque Samanes). 
+
+El sitio se construye a partir de una plantilla HTML5 UP personalizada con contenido propio. Los datos se obtuvieron durante la visita al evento el día 4 de octubre, fecha en la que se realizaron las encuestas *in situ*. La información cuantitativa y cualitativa (basada en una muestra de 5 asistentes) proviene del archivo de análisis: **"Encuesta para los asistentes del Festival Gastronómico _Chancho Fest 2026_(1-5).xlsx"**.
 
 ## 1. Análisis y Organización del Contenido
 
-Para garantizar una navegación lógica y una excelente experiencia de usuario (UX), el sitio web se ha estructurado en un formato *One-Page* (de una sola página), dividido en las siguientes secciones secuenciales:
+Para garantizar una navegación lógica y una excelente experiencia de usuario (UX), el sitio web se ha estructurado en un formato *One-Page* (de una sola página), dividido en las siguientes cinco secciones secuenciales:
 
 *   **Sección 1: Inicio / Acerca del Estudio**
-    *   **Propósito:** Contextualizar al visitante sobre la naturaleza del evento ("Chancho Fest 2026" en Parque Samanes) y el objetivo de la investigación (recopilación de datos mediante encuestas *in situ* realizadas el 4 de octubre).
-    *   **Justificación:** Todo reporte de datos necesita una introducción clara para que el usuario entienda el alcance y la relevancia de la información que está a punto de leer.
+    *   **Propósito y contenido:** Contextualizar al visitante sobre la naturaleza del evento, la fecha y el objetivo de la investigación. Se incluye como dato destacado que el **80% respondió que sí** a la pregunta *"¿Recomendaría asistir a este festival a sus amigos o familiares?"* como gancho inicial.
+    *   **Justificación:** Todo reporte de datos necesita una introducción clara para que el usuario entienda el alcance y la relevancia de la información.
 *   **Sección 2: El Evento en Cifras (Resultados Cuantitativos)**
-    *   **Propósito:** Visualizar de manera directa los datos de las preguntas cerradas (ej. 80% de satisfacción, 60% de asistencia primeriza).
+    *   **Propósito y contenido:** Visualizar de manera directa los datos de las preguntas cerradas (80% de satisfacción, 80% considera precios accesibles, 60% asistencia primeriza, 60% se enteró por amigos).
     *   **Justificación:** Los usuarios escanean visualmente la web; presentar las estadísticas duras al principio y con elementos visuales capta la atención inmediatamente.
 *   **Sección 3: Motivos de Visita y Experiencia Gastronómica**
-    *   **Propósito:** Profundizar en las respuestas abiertas sobre las motivaciones personales (compartir en familia) y la valoración de la organización (variedad de locales y abundancia de mesas).
+    *   **Propósito y contenido:** Profundizar en las respuestas abiertas sobre las motivaciones personales (compartir en familia) y destacar lo positivo de la organización (variedad de locales, platillos y abundancia de mesas).
     *   **Justificación:** Humaniza los datos presentados en la sección anterior, dando voz a la experiencia real de los asistentes.
 *   **Sección 4: Impacto Local y Comunitario**
-    *   **Propósito:** Destacar la percepción social y económica del evento, resaltando cómo ayuda a los emprendedores locales y une a la comunidad.
+    *   **Propósito y contenido:** Destacar el valor social y económico del evento, resaltando cómo une a la comunidad, crea lazos y da ventas/reconocimiento a los emprendedores locales.
     *   **Justificación:** Responde a la necesidad de evaluar el impacto cultural y económico de la actividad en la ciudad.
 *   **Sección 5: Oportunidades de Mejora**
-    *   **Propósito:** Exponer las críticas constructivas y problemas identificados (exceso de calor) junto con las soluciones sugeridas por el público (carpas, mayor espacio).
+    *   **Propósito y contenido:** Exponer las críticas constructivas identificadas (exceso de calor) junto con las soluciones sugeridas por el público (carpas, mayor espacio, mejor decoración).
     *   **Justificación:** Otorga objetividad e imparcialidad al estudio, mostrando no solo los aspectos positivos, sino también los puntos de fricción para futuras ediciones.
 
-## 2. Comparación de Plantillas
+## 2. Análisis comparativo de plantillas
 
-Para el desarrollo del sitio, se evaluaron tres alternativas del catálogo de HTML5 UP, analizando su estructura y adaptabilidad al proyecto:
+Durante la primera semana de trabajo (*sprint*) fue necesario elegir una plantilla base sobre la cual construir el sitio. Antes de decidir, se revisaron tres opciones disponibles en [HTML5 UP](https://html5up.net), realizando una lectura superficial de la estructura del encabezado, número de secciones, menú de navegación, tipografías, paleta de colores y comportamiento en distintos tamaños de pantalla.
 
-1.  **[Prologue](https://html5up.net/prologue):** Presenta un diseño basado en una barra lateral (sidebar) de navegación fija. Aunque es estéticamente agradable, su enfoque principal es para portafolios personales o perfiles profesionales, lo que dificulta la lectura inmersiva de un reporte de datos.
-2.  **[Verti](https://html5up.net/verti):** Posee una estructura más tradicional y multipágina (tipo corporativo). Resulta demasiado formal y pesada para el objetivo del proyecto, ya que obligaría al usuario a hacer múltiples clics para encontrar los resultados del evento.
-3.  **[Miniport](https://html5up.net/miniport):** Destaca por su diseño *One-Page* minimalista, estructurado en bloques horizontales amplios y responsivos. Prioriza el contenido directo y el desplazamiento vertical (scroll).
+### Plantillas evaluadas
+1.  **[Prologue](https://html5up.net/prologue):** Pensada para portafolios personales. Presenta una barra lateral fija. Su punto fuerte es que el menú siempre está visible, pero ese mismo elemento lateral obliga a reservar espacio en pantallas pequeñas, dificultando la lectura de datos.
+2.  **[Verti](https://html5up.net/verti):** Orientada a páginas corporativas y organizada en bloques horizontales a ancho completo. Ofrece una navegación clara, pero su cantidad de bloques, páginas múltiples y estilos la vuelve algo más pesada de personalizar.
+3.  **[Miniport](https://html5up.net/miniport):** Plantilla minimalista de una sola página, dividida en pocas secciones apiladas verticalmente. Fue diseñada específicamente para transmitir un mensaje corto y directo sin necesidad de varias páginas.
 
-## 3. Justificación de la Selección
+### Aspectos comunes evaluados
+Las tres plantillas compartían características aptas para el proyecto:
+*   **Estructura de menú + secciones:** Permiten personalización de contenido propio.
+*   **Navegación intuitiva:** El usuario siempre sabe en qué parte del sitio se encuentra.
+*   **Diseño adaptable (*Responsive*):** Se adaptan a distintos tipos de dispositivos (escritorio, tableta y celular), reordenando columnas y apilando bloques.
+*   **Paleta de colores propia:** Proveen una estética coherente desde el inicio.
 
-Se seleccionó la plantilla **[Miniport](https://html5up.net/miniport)** como base arquitectónica para el sitio web debido a que su estructura *One-Page* se alinea perfectamente con la narrativa de *storytelling* de datos requerida para este proyecto. 
+## 3. Selección y justificación de la plantilla
 
-Al presentar la información de manera escalonada (Contexto → Cifras → Experiencia → Conclusiones), Miniport permite que el usuario consuma el reporte como una historia continua mediante un simple desplazamiento vertical. Su diseño limpio e interactivo evita distracciones, facilitando la implementación de una interfaz centrada en el usuario y garantizando que el foco de atención se mantenga en los resultados de las entrevistas.
+Se seleccionó la plantilla **[Miniport](https://html5up.net/miniport)** por su practicidad, simplicidad y facilidad de modificación técnica durante el *sprint*:
+
+*   **Todo en una misma sección (One-Page / Storytelling):** El contenido se organiza en una sola página. No es necesario gestionar rutas ni enlaces externos, lo que permite que el usuario consuma el reporte como una historia continua mediante *scroll*.
+*   **Sin cambios bruscos en el menú móvil:** En dispositivos móviles, la barra de navegación se mantiene de forma compacta y estable con respecto a la versión de escritorio, mejorando drásticamente la experiencia de uso (UX).
+*   **Curva de aprendizaje baja:** Al ser la más sencilla arquitectónicamente, permitió concentrar el esfuerzo del *sprint* en el análisis del contenido y la personalización, en lugar de lidiar con la estructura técnica del sitio.
 
 ## 4. Referencias
 
