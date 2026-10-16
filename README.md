@@ -4,6 +4,22 @@ Explorando la cultura con la web: sitio informativo sobre el **Festival Gastron�
 
 ---
 
+## Objetivo
+
+Analizar y organizar la información recopilada de un evento para el desarrollo de una primera versión funcional de una *landing page*, mediante la selección y personalización de una plantilla HTML y CSS, aplicando prácticas de planificación ágil y control de versiones.
+
+---
+
+## Instrucciones
+
+1. **Organización del contenido.** Revisar los datos recopilados durante el levantamiento de información del evento y determinar las secciones que tendrá el sitio web, considerando la información disponible. El contenido de cada sección se organiza en el apartado *"Organización del contenido"* de este README, indicando el nombre de la sección, su propósito y los datos que se presentarán.
+
+2. **Selección de la plantilla.** Ingresar a [HTML5 UP](https://html5up.net) y explorar las plantillas gratuitas disponibles. Identificar tres plantillas candidatas y comparar sus características, considerando estructura, navegación, diseño, adaptabilidad y facilidad de personalización. Seleccionar la plantilla más apropiada y justificar la elección en el apartado *"Selección y justificación de la plantilla"*.
+
+3. **Repositorio público.** Crear un repositorio público en GitHub e incorporar el archivo `README.md` para documentar el proyecto.
+
+---
+
 ## Organización del contenido
 
 El sitio se estructurará en cinco secciones, cada una con un propósito claro y con datos provenientes de una muestra de **5 asistentes encuestados**. La información cuantitativa y cualitativa proviene del archivo **"Encuesta para los asistentes del Festival Gastronómico _Chancho Fest 2026_(1-5).xlsx"**.
@@ -11,12 +27,13 @@ El sitio se estructurará en cinco secciones, cada una con un propósito claro y
 **Sección 1: Inicio / Acerca del Estudio**
 
 - *Propósito:* Dar la bienvenida y explicar el objetivo de la página.
-- *Qué incluir:* Breve descripción del "Chancho Fest 2026" en Parque Samanes, fecha del evento, y mencionar que los datos provienen de una muestra de 5 asistentes encuestados. Además, se destacará que el **80% respondió que sí** a la pregunta *"¿Recomendaría asistir a este festival a sus amigos o familiares?"*.
+- *Qué incluir:* Breve descripción del "Chancho Fest 2026" en Parque Samanes y la fecha del evento.
 
 **Sección 2: El Evento en Cifras**
 
 - *Propósito:* Mostrar los resultados de las preguntas cerradas con gráficos (barras, pasteles) o números grandes.
 - *Qué incluir:*
+  - Resultados obtenidos a partir de una muestra de **5 asistentes encuestados**, destacando que el **80% respondió que sí** a la pregunta *"¿Recomendaría asistir a este festival a sus amigos o familiares?"*.
   - 80% de satisfacción general (buena experiencia).
   - 80% considera los precios accesibles.
   - 60% son asistentes primerizos.
@@ -41,7 +58,7 @@ El sitio se estructurará en cinco secciones, cada una con un propósito claro y
 
 ## Análisis comparativo de plantillas
 
-Durante la primera semana de trabajo (sprint) fue necesario elegir una plantilla base sobre la cual construir el sitio. Antes de decidir, se revisaron tres opciones disponibles en [HTML5 UP](https://html5up.net), un repositorio de plantillas HTML5/CSS gratuitas y de código abierto, y se realizó una lectura superficial de los elementos que compone cada una de las páginas: estructura del encabezado, número de secciones, menú de navegación, tipografías, paleta de colores y comportamiento en distintos tamaños de pantalla.
+Se revisaron tres opciones disponibles en [HTML5 UP](https://html5up.net), un repositorio de plantillas HTML5/CSS gratuitas y de código abierto, y se realizó una lectura superficial de los elementos que compone cada una de las páginas: estructura del encabezado, número de secciones, menú de navegación, tipografías, paleta de colores y comportamiento en distintos tamaños de pantalla.
 
 ### Plantillas evaluadas
 
@@ -71,4 +88,4 @@ Se escogió **[Miniport](https://html5up.net/miniport)** por su practicidad y si
 
 - **Todo en una misma sección:** el contenido se organiza en una sola página con secciones cortas, por lo que no es necesario gestionar rutas, enlaces entre páginas ni un nivel de complejidad adicional.
 - **Sin cambios bruscos en el menú móvil:** en dispositivos móviles la barra de navegación se mantiene de forma compacta y estable, sin presentar un cambio brusco con respecto a la versión de escritorio, lo que mejora la experiencia de uso.
-- **Curva de aprendizaje baja:** al ser la más sencilla de las tres, permite concentrar el esfuerzo del sprint en el contenido y la personalización, en lugar de en la estructura del sitio.
+- **Curva de aprendizaje baja:** al ser la más sencilla de las tres, permite concentrar el esfuerzo del proyecto en el contenido y la personalización, en lugar de en la estructura del sitio.
