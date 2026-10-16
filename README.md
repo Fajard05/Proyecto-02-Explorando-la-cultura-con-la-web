@@ -1,4 +1,4 @@
-# Proyecto: Explorando la cultura en la web
+# Proyecto 02: Explorando la cultura en la web
 
 Este repositorio contiene el código fuente y los recursos del sitio web informativo desarrollado para presentar los resultados de la recopilación de datos de los asistentes del evento cultural **"Chancho Fest 2026"** (Parque Samanes). 
 
