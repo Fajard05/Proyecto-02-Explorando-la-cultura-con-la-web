@@ -10,16 +10,6 @@ Analizar y organizar la información recopilada de un evento para el desarrollo 
 
 ---
 
-## Instrucciones
-
-1. **Organización del contenido.** Revisar los datos recopilados durante el levantamiento de información del evento y determinar las secciones que tendrá el sitio web, considerando la información disponible. El contenido de cada sección se organiza en el apartado *"Organización del contenido"* de este README, indicando el nombre de la sección, su propósito y los datos que se presentarán.
-
-2. **Selección de la plantilla.** Ingresar a [HTML5 UP](https://html5up.net) y explorar las plantillas gratuitas disponibles. Identificar tres plantillas candidatas y comparar sus características, considerando estructura, navegación, diseño, adaptabilidad y facilidad de personalización. Seleccionar la plantilla más apropiada y justificar la elección en el apartado *"Selección y justificación de la plantilla"*.
-
-3. **Repositorio público.** Crear un repositorio público en GitHub e incorporar el archivo `README.md` para documentar el proyecto.
-
----
-
 ## Organización del contenido
 
 El sitio se estructurará en cinco secciones, cada una con un propósito claro y con datos provenientes de una muestra de **5 asistentes encuestados**. La información cuantitativa y cualitativa proviene del archivo **"Encuesta para los asistentes del Festival Gastronómico _Chancho Fest 2026_(1-5).xlsx"**.
