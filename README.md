@@ -26,7 +26,7 @@ Para garantizar una navegación lógica y una excelente experiencia de usuario (
 
 ## 2. Análisis comparativo de plantillas
 
-Durante la primera semana de trabajo (*sprint*) fue necesario elegir una plantilla base sobre la cual construir el sitio. Antes de decidir, se revisaron tres opciones disponibles en [HTML5 UP](https://html5up.net), realizando una lectura superficial de la estructura del encabezado, número de secciones, menú de navegación, tipografías, paleta de colores y comportamiento en distintos tamaños de pantalla.
+Durante la primera semana de trabajo (sprint) fue necesario elegir una plantilla base sobre la cual construir el sitio. Antes de decidir, se revisaron tres opciones disponibles en [HTML5 UP](https://html5up.net), un repositorio de plantillas HTML5/CSS gratuitas y de código abierto, y se realizó una lectura superficial de los elementos que compone cada una de las páginas: estructura del encabezado, número de secciones, menú de navegación, tipografías, paleta de colores y comportamiento en distintos tamaños de pantalla.
 
 ### Plantillas evaluadas
 1.  **[Prologue](https://html5up.net/prologue):** Pensada para portafolios personales. Presenta una barra lateral fija. Su punto fuerte es que el menú siempre está visible, pero ese mismo elemento lateral obliga a reservar espacio en pantallas pequeñas, dificultando la lectura de datos.
@@ -44,9 +44,9 @@ Las tres plantillas compartían características aptas para el proyecto:
 
 Se seleccionó la plantilla **[Miniport](https://html5up.net/miniport)** por su practicidad, simplicidad y facilidad de modificación técnica durante el *sprint*:
 
-*   **Todo en una misma sección (One-Page / Storytelling):** El contenido se organiza en una sola página. No es necesario gestionar rutas ni enlaces externos, lo que permite que el usuario consuma el reporte como una historia continua mediante *scroll*.
-*   **Sin cambios bruscos en el menú móvil:** En dispositivos móviles, la barra de navegación se mantiene de forma compacta y estable con respecto a la versión de escritorio, mejorando drásticamente la experiencia de uso (UX).
-*   **Curva de aprendizaje baja:** Al ser la más sencilla arquitectónicamente, permitió concentrar el esfuerzo del *sprint* en el análisis del contenido y la personalización, en lugar de lidiar con la estructura técnica del sitio.
+- **Todo en una misma sección:** el contenido se organiza en una sola página con secciones cortas, por lo que no es necesario gestionar rutas, enlaces entre páginas ni un nivel de complejidad adicional.
+- **Sin cambios bruscos en el menú móvil:** en dispositivos móviles la barra de navegación se mantiene de forma compacta y estable, sin presentar un cambio brusco con respecto a la versión de escritorio, lo que mejora la experiencia de uso.
+- **Curva de aprendizaje baja:** al ser la más sencilla de las tres, permite concentrar el esfuerzo del sprint en el contenido y la personalización, en lugar de en la estructura del sitio.
 
 ## 4. Referencias
 
