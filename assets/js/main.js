@@ -18,6 +18,15 @@
 			small:   [ null,      '736px'  ]
 		});
 
+		function syncNavHeight() {
+			$body.css('padding-top', $nav.outerHeight() + 'px');
+		}
+
+		$window.on('load resize orientationchange', syncNavHeight);
+		breakpoints.on('<=small', syncNavHeight);
+		breakpoints.on('>small', syncNavHeight);
+		syncNavHeight();
+
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
