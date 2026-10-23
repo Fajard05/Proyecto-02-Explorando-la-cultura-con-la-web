@@ -169,9 +169,14 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
-		letter-spacing: -0.015em;
+		font-size: 4em;
+		letter-spacing: 0;
+		line-height: 1.2;
+		margin: 1em 0;
+		color: #61301E;
+		font-weight: 800;
 	}
+
 
 	h3 {
 		font-size: 1.5em;
@@ -197,6 +202,11 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+	}
+
+	p{
+		color: black;
+		font-size: 1.2em;
 	}
 
 	header {
@@ -1661,10 +1671,7 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1678,7 +1685,7 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 8px;
+		border-radius: 50px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
@@ -1907,7 +1914,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #F9F6EE;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -2004,11 +2011,11 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #FFFDF0;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #FFF4F0;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2459,9 +2466,7 @@ input, select, textarea {
 
 	}
 
-	/* =========================================
-   Personalización de la Sección 1 Inicio
-   ========================================= */
+/* Personalización de la Sección 1 Inicio */
 
 .wrapper.banner-inicio {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banner-inicio.jpg');
@@ -2471,20 +2476,26 @@ input, select, textarea {
 }
 
 .wrapper.banner-inicio h1 {
-	font-size: 4.0em;
+	font-size: 5.5em;
 	font-weight: 800;
     color: #ffffff;
 	line-height: 1.2;
 }
+ #inicio .container { 
+    width: 100%; 
+    max-width: 1500px; 
+}
 
 .contenido-centrado {
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .contenido-centrado p {
     font-size: 1.5em;
+	line-height: 1.5;
+	color: white; 
 }
 
 .dato-clave {
@@ -2492,7 +2503,7 @@ input, select, textarea {
     padding: 25px;
     border-radius: 8px;
     margin: 30px 0;
-    border-left: 5px solid #CC8368;
+    border-left: 5px solid #4FFFDC;
 }
 
 .dato-clave p {
@@ -2512,15 +2523,42 @@ input, select, textarea {
     font-weight: 700 !important;
 }
 
-.impacto-imagen {
-    display: block;
-    width: 340px;
-    max-width: 100%;
-    margin: 2em auto 0;
+/* Personalización de la Sección 4 Impacto local y comunitario */
+.wrapper.banner-impacto {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/impacto.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
 }
-.impacto-imagen img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
+
+ #impacto .container { 
+    width: 100%; 
+    max-width: 1500px; 
+}
+
+.contenido-centrado {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenido-centrado p {
+    font-size: 1.5em;
+	line-height: 1.5;
+	color: white; 
+}
+
+.wrapper.banner-impacto h2 {
+    color: #ffffff;
+}
+
+#impacto.banner-impacto strong,
+#impacto.banner-impacto b {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+#mejora footer {
+	font-size: 1.5em;
+	font-weight: 700 !important;
 }
