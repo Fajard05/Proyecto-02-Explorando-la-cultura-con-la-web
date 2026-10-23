@@ -2053,7 +2053,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 3.5em;
+		height: auto;
 		line-height: 3.5em;
 	}
 
@@ -2252,7 +2252,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				padding-top: 44px;
+				padding-top: 68px;
 			}
 
 			body, input, textarea, select {
@@ -2398,14 +2398,19 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
-				line-height: 44px;
+				height: auto;
+				line-height: 34px;
 			}
 
+				#nav li {
+					vertical-align: top;
+				}
+
 				#nav a {
-					padding: 0 0.75em;
-					height: inherit;
-					line-height: inherit;
+					padding: 0 0.4em;
+					height: 34px;
+					line-height: 34px;
+					font-size: 11px;
 					border-radius: 0;
 				}
 
@@ -2459,7 +2464,7 @@ input, select, textarea {
    ========================================= */
 
 .wrapper.banner-inicio {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://sabor.eluniverso.com/wp-content/uploads/2026/10/web_foto-feria-CHANCHO.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/banner-inicio.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -2505,4 +2510,17 @@ input, select, textarea {
 #inicio.banner-inicio b {
     color: #ffffff !important;
     font-weight: 700 !important;
+}
+
+.impacto-imagen {
+    display: block;
+    width: 340px;
+    max-width: 100%;
+    margin: 2em auto 0;
+}
+.impacto-imagen img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
 }
