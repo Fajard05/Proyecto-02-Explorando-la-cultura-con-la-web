@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2443,3 +2438,56 @@ input, select, textarea {
 					}
 
 	}
+
+	/* =========================================
+   Personalización del Proyecto Chancho Fest
+   ========================================= */
+
+.wrapper.banner-inicio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://sabor.eluniverso.com/wp-content/uploads/2026/10/web_foto-feria-CHANCHO.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.wrapper.banner-inicio h1 {
+	font-size: 3.8em;
+	font-weight: 800;
+    color: #ffffff;
+	line-height: 1.2;
+}
+
+.contenido-centrado {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenido-centrado p {
+    font-size: 1.1em;
+}
+
+.dato-clave {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 8px;
+    margin: 30px 0;
+    border-left: 5px solid #ff7f50;
+}
+
+.dato-clave p {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.boton-espaciado {
+    margin-top: 20px;
+}
+
+#inicio.banner-inicio strong,
+#inicio.banner-inicio b {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
