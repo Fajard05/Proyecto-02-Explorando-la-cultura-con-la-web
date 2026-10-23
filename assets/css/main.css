@@ -1635,7 +1635,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 1.5em 0 2em 0;
+			margin: 2em 0 2em 0;
 			padding-top: 3em
 		}
 
@@ -1927,7 +1927,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			padding: 0em 2em 3.5em 2em;
 		}
 
 			.box.style1 h3 {
@@ -2380,6 +2380,7 @@ input, select, textarea {
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
+
 
 				.box.style2 {
 					max-width: 32em;
