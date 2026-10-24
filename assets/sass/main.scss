@@ -1211,3 +1211,26 @@
 			border-radius: 6px;
 		}
 	}
+
+	#mejora footer {
+		font-size: 1.5em;
+		font-weight: 700 !important;
+
+		a {
+			text-decoration: none;
+			display: inline-block;
+			color: #fff;
+			background-color: #282828;
+			border-radius: 8px;
+			padding: 0 1.25em;
+			line-height: 2.5em;
+			text-shadow: none;
+			outline: 0;
+			@include vendor('transition', 'background-color .2s ease-in-out');
+
+			&:hover {
+				color: #fff !important;
+				background-color: #383838;
+			}
+		}
+	}
