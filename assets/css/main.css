@@ -867,9 +867,112 @@ body {
 	font-size: 1.5em;
 }
 
+/* Personalización de la Sección 6 Encuesta (cierre de página) */
+.wrapper.cierre {
+	background-color: #332723;
+	background-image: none;
+	color: #ffffff;
+	text-shadow: none;
+	padding: 6em 0 5em 0;
+}
+
+.wrapper.cierre h2 {
+	color: #ffffff;
+}
+
+.wrapper.cierre header p {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.formulario {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.formulario label {
+	display: block;
+	margin: 1.5em 0 0.5em;
+	font-size: 0.95em;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+}
+
+.formulario input[type="text"],
+.formulario select,
+.formulario textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.8em 1em;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 8px;
+	background-color: #ffffff;
+	color: #332723;
+	font-family: inherit;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+.formulario input[type="text"]:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+	outline: 0;
+	border-color: #ff7f50;
+	box-shadow: 0 0 0 3px rgba(255, 127, 80, 0.35);
+}
+
+.formulario textarea {
+	min-height: 5em;
+	resize: vertical;
+}
+
+/* La casilla no hereda el layout de los campos: ancho propio, alineada al texto */
+.formulario .casilla {
+	display: flex;
+	align-items: center;
+	gap: 0.6em;
+	margin: 1.75em 0 0;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.formulario .casilla input {
+	flex: 0 0 auto;
+	width: 1.15em;
+	height: 1.15em;
+	accent-color: #ff7f50;
+}
+
+.formulario .enviar {
+	display: block;
+	margin: 2em auto 0;
+}
+
 /* El h1 del banner (5.5em) gana por especificidad al h1 movil (2.25em) y desbordaba a 360px */
 @media screen and (max-width: 736px) {
 	.wrapper.banner-inicio h1 {
 		font-size: 2.5em;
+	}
+}
+
+/* Con 6 enlaces el menú pasaba a 3 lineas (107px) y tapaba el contenido;
+   en pantallas estrechas gana ancho y baja la tipografia para volver a 2 lineas */
+@media screen and (max-width: 400px) {
+	#nav ul {
+		max-width: calc(100% - 20px);
+	}
+
+	#nav a {
+		padding: 0 0.3em;
+		font-size: 10px;
+	}
+}
+
+/* En escritorio los 6 enlaces (894px) no cabian en una linea y el menú
+   fijo crecia de 51px a 103px, tapando los titulos al saltar por anclas */
+@media screen and (min-width: 737px) and (max-width: 1000px) {
+	#nav a {
+		padding: 0 0.5em;
+		font-size: 0.85em;
 	}
 }

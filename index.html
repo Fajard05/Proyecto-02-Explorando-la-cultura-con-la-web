@@ -18,6 +18,7 @@
 					<li><a href="#motivos">Motivos de Visita</a></li>
 					<li><a href="#impacto">Impacto Comunitario</a></li>
 					<li><a href="#mejora">Oportunidades de Mejora</a></li>
+					<li><a href="#encuesta">Encuesta</a></li>
 				</ul>
 			</nav>
 
@@ -226,6 +227,41 @@
 					<footer>	
 						<a href="#inicio" class="button alt">Volver al Inicio</a>
 					</footer>
+				</div>
+			</article>
+
+	<!-- Sección 6: Encuesta de Asistencia (cierre de página) -->
+			<article id="encuesta" class="wrapper cierre">
+				<div class="container">
+					<header>
+						<h2>Encuesta de Asistencia</h2>
+						<p>Cuéntanos cómo fue tu experiencia en el Chancho Fest 2026.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form class="formulario" action="#" method="get" onsubmit="return false">
+								<label for="nombre">Nombre</label>
+								<input type="text" id="nombre" name="nombre" required autocomplete="name">
+
+								<label for="opinion">Opinión del evento</label>
+								<textarea id="opinion" name="opinion" rows="4" required></textarea>
+
+								<label for="dia">Día en el que asistió</label>
+								<select id="dia" name="dia" required>
+									<option value="" selected disabled>Selecciona un día</option>
+									<option value="2-octubre">2 de octubre</option>
+									<option value="3-octubre">3 de octubre</option>
+									<option value="4-octubre">4 de octubre</option>
+								</select>
+
+								<label class="casilla" for="concierto">
+									<input type="checkbox" id="concierto" name="concierto" value="si"> Asistió al concierto
+								</label>
+
+								<button type="submit" class="button enviar">Enviar</button>
+							</form>
+						</div>
+					</div>
 				</div>
 			</article>
 
