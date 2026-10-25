@@ -2558,6 +2558,35 @@ input, select, textarea {
     font-weight: 700 !important;
 }
  
+.contenedor-impacto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.texto-impacto {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.video-referencia {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.video-referencia iframe {
+    border-radius: 15px; /* Ajusta este número para que sea más o menos redondo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Opcional: le da una pequeña sombra para que resalte */
+}
+
+.fuente-video {
+    font-size: 1em !important;
+    margin-top: 10px;
+}
 
 /* Personalización de boton en seccion mejora */
 #mejora footer {
