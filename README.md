@@ -104,6 +104,12 @@ El proyecto se implementó modificando los archivos base de la plantilla Minipor
     *   Se modificaron las clases de los contenedores globales (`.container`, `.contenido-centrado`) expandiendo su ancho a `1500px` para aprovechar mejor el espacio en pantallas grandes.
     *   Se añadieron reglas personalizadas al final de la hoja de estilos para manipular los fondos de los banners principales (`.wrapper.banner-inicio`, `.wrapper.banner-impacto`), aplicándoles gradientes oscuros sobre las imágenes para garantizar un óptimo contraste con el texto en blanco.
     *   Se redefinió la apariencia de los botones (`border-radius: 50px`) y sus estados interactivos (`:hover`, `:active`) removiendo las sombras excesivas en favor de un diseño más plano y moderno.
+    *   Se depuró la hoja de estilos: se eliminaron las reglas que ningún elemento del sitio utilizaba (formularios, tablas, iconos, copyright, variantes de grid y sus media queries), así como los duplicados y los `!important` innecesarios. El resultado se verificó comparando los estilos calculados de las 179 elementos del DOM antes y después, sin diferencias fuera del botón reestilizado.
+    *   Se eliminó la dependencia de FontAwesome: el `@import` de `fontawesome-all.min.css` y la carpeta `assets/webfonts/` (aproximadamente 2,9 MB) ya que ningún icono se usaba en el sitio.
+    *   El botón "Volver al Inicio" de la sección 5 ahora reutiliza las clases de la plantilla (`class="button alt"`) en lugar de una regla escrita a mano.
+    *   Se añadió un media query móvil (`max-width: 736px`) para el `h1` de `.wrapper.banner-inicio`, cuyo `font-size: 5.5em` ganaba por especificidad al `h1` móvil y desbordaba en pantallas de 360 px.
+
+*   **Nota sobre Sass:** los estilos viven directamente en `assets/css/main.css`. La carpeta `assets/sass/` fue eliminada porque contenía el Sass original de la plantilla Miniport (paleta azul `#43B3E0`, `h2` de `2em`), nunca sincronizado con la personalización del sitio; compilarlo habría revertido toda la identidad visual del proyecto.
 
 ---
 
